@@ -158,3 +158,10 @@ footer {
     padding: 25px;
     font-size: 14px;
 }
+
+/* MAPA */
+.mapa iframe {
+    width: 100%;
+    height: 400px;
+    filter: grayscale(100%);
+}
