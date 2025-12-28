@@ -169,3 +169,22 @@ footer {
     width: 100%;
     height: 400px;
 }
+
+/* CONTACTO FONDO BLANCO */
+#contacto {
+    background: #fff;
+}
+
+#contacto .overlay {
+    background: none;
+}
+
+#contacto h2,
+#contacto p,
+#contacto a {
+    color: #000;
+}
+
+#contacto a {
+    text-decoration: underline;
+}
