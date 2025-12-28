@@ -2,86 +2,81 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoodLook Indumentaria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicongoodlook.png">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <meta name="description" content="GoodLook Indumentaria - Moda urbana y elegante en Chacabuco.">
 </head>
 <body>
 
-<header class="header">
-    <div class="logo">GoodLook</div>
-    <nav class="nav">
-        <a href="#inicio">Inicio</a>
-        <a href="#sobre">Sobre Nosotros</a>
-        <a href="#horarios">Horarios</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-</header>
+    <!-- HEADER -->
+    <header class="navbar">
+        <div class="logo">GoodLook</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Sobre Nosotros</a>
+            <a href="#horarios">Horarios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
 
-<section id="inicio" class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-        <h1>GoodLook Indumentaria</h1>
-        <p>Moda urbana · Estilo · Elegancia</p>
-        <a class="btn" href="#contacto">Visitanos</a>
-    </div>
-</section>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay">
+            <h1>GoodLook Indumentaria</h1>
+            <p>Moda urbana · Estilo · Elegancia</p>
+            <a href="#contacto" class="btn">Visitanos</a>
+        </div>
+    </section>
 
-<section id="sobre" class="section">
-    <h2>Sobre Nosotros</h2>
-    <p>
-        En GoodLook Indumentaria combinamos tendencias actuales, calidad y estilo.
-        Somos una tienda de ropa ubicada en Chacabuco con atención personalizada
-        y retiro en tienda.
-    </p>
-    <p class="rating">⭐ 4,8 / 5 — 6 reseñas</p>
-</section>
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros" class="section white">
+        <h2>Sobre Nosotros</h2>
+        <p>
+            En <strong>GoodLook Indumentaria</strong> ofrecemos prendas seleccionadas con estilo,
+            calidad y personalidad. Moda actual para quienes buscan verse bien todos los días.
+        </p>
+    </section>
 
-<section id="horarios" class="section dark bg-image">
-    <div class="overlay"></div>
-    <div class="content">
-        <h2>Horarios de Atención</h2>
-        <ul class="horarios">
-            <li><strong>Domingo:</strong> 9:00–12:30 / 18:00–20:00</li>
-            <li><strong>Lunes a Viernes:</strong> 9:00–12:15 / 17:00–20:00</li>
-            <li><strong>Sábado:</strong> 9:00–12:30 / 18:00–20:00</li>
-        </ul>
-        <p class="nota">*Horarios sujetos a cambios en feriados.</p>
-    </div>
-</section>
+    <!-- HORARIOS -->
+    <section id="horarios" class="section-bg horarios-bg">
+        <div class="overlay">
+            <h2>Horarios de Atención</h2>
+            <p><strong>Lunes a Viernes:</strong> 9:00 – 12:15 / 17:00 – 20:00</p>
+            <p><strong>Sábado:</strong> 9:00 – 12:30 / 18:00 – 20:00</p>
+            <p><strong>Domingo:</strong> 9:00 – 12:30 / 18:00 – 20:00</p>
+            <small>*Horarios sujetos a cambios en feriados</small>
+        </div>
+    </section>
 
-<section id="contacto" class="section">
-    <h2>Contacto</h2>
+    <!-- CONTACTO -->
+    <section id="contacto" class="section-bg contacto-bg">
+        <div class="overlay">
+            <h2>Contacto</h2>
+            <p><strong>Dirección:</strong> Zapiola 123, Chacabuco</p>
+            <p>
+                <strong>Teléfono:</strong>
+                <a href="tel:02364547355">0236 454-7355</a>
+            </p>
 
-    <p><strong>Dirección:</strong> Zapiola 123, Chacabuco</p>
-    <p><strong>Teléfono:</strong> <a href="tel:02364547355">0236 454-7355</a></p>
-    <p><strong>Servicio:</strong> Retiro en tienda</p>
+            <div class="redes">
+                <a href="https://www.instagram.com/goodlook.chacabuco/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/goodlookindumentariachacabuco/" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </section>
 
-    <div class="redes">
-        <a href="https://www.instagram.com/goodlook.chacabuco/reels/?__d=1%3F%2F" target="_blank">Instagram</a>
-        <a href="https://www.facebook.com/goodlookindumentariachacabuco/?locale=es_LA" target="_blank">Facebook</a>
-    </div>
-
-    <iframe 
-        src="https://www.google.com/maps?q=Zapiola%20123%20Chacabuco%20Buenos%20Aires&output=embed"
-        loading="lazy"
-        class="map">
-    </iframe>
-</section>
-
-<footer class="footer">
-    <p>© 2025 GoodLook Indumentaria · Todos los derechos reservados</p>
-</footer>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 GoodLook Indumentaria · Chacabuco</p>
+    </footer>
 
 </body>
 </html>
